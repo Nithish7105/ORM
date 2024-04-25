@@ -1,5 +1,5 @@
 # Ex02 Django ORM Web Application
-## Date: 
+## Date: 1.04.2024
 
 ## AIM
 To develop a Django application to store and retrieve data from a Book database using Object Relational Mapping(ORM).
@@ -23,13 +23,16 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-
-Include your code here
+```
+# Register your models here.
+from django.contrib import admin
+from .models import footballPlayer,footballPlayerAdmin
+admin.site.register(footballPlayer,footballPlayerAdmin)
+```
+```
+```
 
 ## OUTPUT
-
-Include the screenshot of your admin page.
-
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
